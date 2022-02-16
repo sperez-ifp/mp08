@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Sans-serif;
+}
+
+div {
+  margin: 13.3px;
+  overflow: hidden;
+}
+
+.cabezera, .peu {
+  width: 1200px;
+  height: 200px;
+  clear: both;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.izq, .centro, .der {
+  background-color: lightblue;
+  margin: 0 12.3px;
+  display: inline-block;
+  height: 700px;
+  float: left;
+}
+
+.izq {
+  width: 200px;
+}
+
+.centro {
+  width: 700px;
+  height: 1180px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.der {
+  width: 200px;
+}
+
+.contenedor {
+  background-color: yellow;
+  width: 1200px;
+  margin: 0 auto;
+}

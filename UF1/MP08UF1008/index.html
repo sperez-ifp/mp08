@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Absolute</title>
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <style media="screen">
+    .petal {
+      height: 100px;
+      width: 100px;
+      background-color: darkgreen;
+      border-radius: 0 100px;
+      position: relative;
+      transform-origin: right bottom;
+    }
+
+    .primer {
+      top: 100px;
+      left: 100px;
+      transform: rotate(60deg);
+      background-color: purple;
+    }
+    .segon {
+      top: 0px;
+      left: 100px;
+      transform: rotate(120deg);
+    }
+    .tercer {
+      top: -100px;
+      left: 100px;
+      transform: rotate(180deg);
+    }
+    .quart {
+      top: -200px;
+      left: 100px;
+      transform: rotate(240deg);
+    }
+    .cinque {
+      top: -300px;
+      left: 100px;
+      transform: rotate(300deg);
+    }
+    .sise {
+      top: -400px;
+      left: 100px;
+      transform: rotate(360deg);
+      transform-origin: 0 0;
+    }
+    .cor {
+      height: 50px;
+      width: 50px;
+      background-color: orange;
+      border-radius: 50%;
+      position: relative;
+      top: -425px;
+      left: 175px;
+    }
+
+    .flor {
+      animation-name: rotacio;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-delay: 5s;
+      transform-origin: 200px 200px;
+
+      <! –– animation: rotacio 1s linear infinite 0s; –– !>
+    }
+
+    @keyframes rotacio{
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    </style>
+  </head>
+
+  <body>
+  <div class="flor">
+    <div class="petal primer"></div>
+    <div class="petal segon"></div>
+    <div class="petal tercer"></div>
+    <div class="petal quart"></div>
+    <div class="petal cinque"></div>
+    <div class="petal sise"></div>
+    <div class="cor"></div>
+  </div>
+  </body>
+</html>

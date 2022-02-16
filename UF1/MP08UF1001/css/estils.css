@@ -1,0 +1,151 @@
+body {
+  background-color: ;
+  margin: 0;
+  font-family: helvetica, arial, sans-serif;
+  color: #666;
+  font-size: 13px;
+}
+h1 {
+  background-color: ;
+  margin: 0;
+  width: 390px;
+  padding: 30px;
+  color: #CCC;
+}
+
+
+a:link{
+  color: red;
+}
+a:hover{
+  color: blue;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: orange;
+}
+
+ul {
+  padding: 0;
+  width: 740px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 0;
+  height: 30px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 10px 0;
+  background-color: lightgrey;
+  line-height: 30px;
+}
+li:hover {
+  background-color: lightgreen;
+}
+
+div {
+  background-repeat: no-repeat;
+  background-position: 400px 0;
+}
+
+#descarrega img {
+  padding: 30px;
+}
+p {
+  background-color: ;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  width: 390px;
+  /*  padding: 30px;
+
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 0px;
+
+  padding: 0 30px;   */
+
+  padding: 0 30px 0 30px;
+  text-indent: 18px;
+}
+
+.blanca {
+  background-color: #FFFFFF;
+}
+
+.verda {
+  background-color: #6C3;
+  height: 550px;
+}
+
+.fosca {
+  background-color: #333333;
+}
+
+.clara {
+  background-color: #EEECEE;
+}
+
+.torna {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  border-radius: 50px;
+  font-size: 80px;
+  text-align: center;
+  line-height: 120px;
+  box-shadow: black 10px 10px 10px;
+}
+
+#menu {
+  height: 40px;
+}
+
+#coneix {
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#tot {
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+}
+
+#util {
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+}
+
+#descarrega {
+  height: 200px;
+  text-align: center;
+}
+
+#rapid {
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#facil {
+    background-image: url(../img/mobile-share.png);
+    background-repeat: no-repeat;
+    background-position: 400px 13px;
+}
+
+#arreu {
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+}
+
+#fotos {
+  margin-left: 400px;
+}

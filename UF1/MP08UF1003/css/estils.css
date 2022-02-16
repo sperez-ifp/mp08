@@ -1,0 +1,46 @@
+div {
+  background-color: lightblue;
+  font-family: Arial, Sans-serif;
+  color: white;
+}
+
+h2 {
+  clear: both;
+}
+
+p {
+  background-color: orange;
+}
+
+.primer {
+  float: left;
+  font-size: 3em;
+  background-color: olive;
+  width: 5em;
+  margin: 1em;
+}
+
+.segon {
+  background-color: lightgrey;
+  height: 5em;
+  width: 30%;
+  margin: 1.6%;
+  float: left;
+  font-size: 3em;
+
+}
+
+.tercer {
+  background-color: violet;
+  float: left;
+  font-size: 3em;
+  margin: 1em;
+  width: 5em;
+}
+
+.contenedor {
+  background-color: orange;
+  overflow: hidden;
+  width: 63em;
+  margin: 0 auto;
+}

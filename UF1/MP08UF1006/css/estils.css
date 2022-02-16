@@ -1,0 +1,63 @@
+.casilla {
+  position: relative;
+}
+
+.taulell {
+width: 800px;
+height: 800px;
+background-color: brown;
+}
+
+.fila .casilla {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  float: left;
+}
+
+.fila:nth-child(odd) .casilla:nth-child(even){
+  background-color: black;
+}
+
+.fila:nth-child(odd) .casilla:nth-child(odd){
+    background-image: radial-gradient(farthest-corner at 0px 0px, #414CB5 10%, #2A36A6);
+}
+
+.fila:nth-child(even) .casilla:nth-child(odd){
+  background-color: black;
+}
+
+.fila:nth-child(even) .casilla:nth-child(even){
+    background-image: radial-gradient(farthest-corner at 0px 0px, #414CB5 10%, #2A36A6);
+}
+
+b {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  display: block;
+  background-color: white;
+  margin: 10px;
+  position: absolute;
+  box-shadow: 2px 2px 5px grey;
+}
+
+b:hover {
+  position: relative;
+  top: 100px;
+}
+
+.fila:nth-child(n+3) b {
+  display: none;
+}
+
+.fila:nth-child(n+7) b {
+  display: block;
+  background-image: radial-gradient(farthest-corner at 0px 0px, #999 10%, #333 );
+  box-shadow: 2px 2px 5px black;
+}
+
+.fila:nth-child(n+7) b:hover {
+  position: relative;
+  top: -100px;
+}

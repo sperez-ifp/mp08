@@ -1,0 +1,16 @@
+.rotate{
+  animation: 1s moviment ease-out infinite alternate-reverse;
+}
+
+@keyframes moviment {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  50% {
+  transform: rotate(180deg);
+  }
+
+  100% {
+  transform: rotate(0deg);
+  }

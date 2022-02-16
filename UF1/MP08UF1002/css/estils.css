@@ -1,0 +1,57 @@
+body {
+  font-size: 16px;
+
+}
+
+div {
+  background-color: lightblue;
+  height: 10em;
+  width: 10em;
+}
+
+spand {
+  color: red;
+  visibility: hidden;
+  display: none;
+}
+
+.floatE {
+  background-image: url(../img/flcl.png);
+  background-size: 100%;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.floatR {
+  background-image: url(../img/nani.jpg);
+  background-size: 100%;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.capitular {
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+  background-image: url(../img/capitular.jpg);
+  background-size: 100%;
+  height: 2.8em;
+  width: 2.8em;
+}
+
+.columna {
+  background-color: lightyellow;
+  width: 40%;
+  margin: 0 5%;
+}
+
+.esquerra {
+  float: left;
+}
+
+.dreta {
+  float: right;
+}
+
+h2 {
+  clear: both;
+}
