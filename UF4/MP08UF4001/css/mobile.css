@@ -1,0 +1,100 @@
+
+body{
+  background-color: lightblue;
+  font-size: 1.5rem;
+  font-family: Tahoma;
+  /* escriptori font-size: 16px; resolucio 72ppp */
+  /* tamany per defecte en funcio del dispositiu. en pc, 1rem= 16px; 0.5rem=8px;
+  2rem= en pc, son 32 px; en mòbil, 64px*/
+  /* Em permet dissenyar en funcio del dispositiu */
+}
+
+p:after {
+  content: "";
+  display: block;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url(../img/instagram_0032.png);
+  background-size: cover;
+}
+
+nav ul li:hover {
+  background-color: yellow;
+}
+
+
+
+h1 {
+  clear: both;
+}
+
+
+@media screen and (min-width:951px) and (orientation:landscape){
+  body{
+    background:olive;
+    color: white;
+
+  }
+  p:after {
+    content: "";
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background: url(../img/instagram_1024.png);
+    background-size: cover;
+  }
+
+  nav ul li {
+    display: block;
+    background: red;
+    margin: 0.1rem;
+    float: left;
+    padding: 0.5rem;
+    width: 10rem;
+  }
+
+}
+
+p:after {}
+
+@media screen and (max-width:950px) and (min-width:650px){
+  body{
+    background:yellow;
+  }
+}
+
+@media screen and (max-width:649px){
+  body{
+    background: pink;
+  }
+
+  nav ul li {
+    display: block;
+    background: green;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    width: 10rem;
+    position: relative;
+  }
+}
+
+nav ul li ul{
+  display: none;
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+
+nav ul li:hover ul{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 11.2rem;
+}
+
+nav ul:hover li ul li{
+  float: none;
+}
+
+
+  /* BREAKPOINTS*/
