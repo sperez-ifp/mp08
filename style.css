@@ -1,6 +1,20 @@
 body {
-  background: lightgrey;
   font-family: "Noto Sans", sans-serif;
+
+  background-color: rgb(203, 198, 175);
+  background-size: 4px 4px;
+  background-image: linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+  color: $color;
+  font-weight: 300;
+  margin: 0;
+  min-height: 100vh;
+  box-shadow: inset 0 0 150px rgba($color, .4), inset 0 0 150px rgba($color, .3);
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  letter-spacing: $letterSpacing;
 }
 
 @media screem and (min-width: 960) {
@@ -11,6 +25,7 @@ body {
 
 li a {
   text-decoration: none;
+  color: black;
 }
 
 
@@ -19,12 +34,12 @@ li {
 }
 
 nav ul li:hover {
-  background-color: yellow;
+  background-color: rgb(223, 223, 176);
 }
 
 nav ul li {
   display: block;
-  background: green;
+  background: rgb(194, 182, 152);
   margin: 0.1rem;
   padding: 0.5rem;
   width: 10rem;
@@ -48,4 +63,15 @@ left: 0.2rem;
 
 nav ul:hover li ul li{
 float: none;
+}
+
+nav {
+  margin-left: -2rem;
+}
+
+.uf1 {
+  width: 20rem;
+  height: 20rem;
+  background-color: red;
+  margin: 2rem;
 }
