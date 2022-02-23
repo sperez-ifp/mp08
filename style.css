@@ -7,7 +7,6 @@ body {
     linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
   color: $color;
   font-weight: 300;
-  margin: 0;
   min-height: 100vh;
   box-shadow: inset 0 0 150px rgba($color, .4), inset 0 0 150px rgba($color, .3);
 
@@ -15,11 +14,12 @@ body {
   min-height: 100vh;
   flex-direction: column;
   letter-spacing: $letterSpacing;
+  margin: 0;
 }
 
 @media screem and (min-width: 960) {
   body {
-    background: pink;
+
   }
 }
 
@@ -27,7 +27,6 @@ li a {
   text-decoration: none;
   color: black;
 }
-
 
 li {
   display: block;
@@ -61,17 +60,42 @@ top: 2.3rem;
 left: 0.2rem;
 }
 
+nav ul li ul a li {
+  position: relative;
+}
+
+nav ul li ul a li:hover:before{
+  content:"";
+  display:block;
+  width: 25px;
+  height: 10px;
+  left: -20px;
+  background: url(cursor.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+
+
+a:hover {cursor: pointer;}
+
 nav ul:hover li ul li{
 float: none;
 }
 
 nav {
-  margin-left: -2rem;
+  margin: 0 auto;
 }
 
 .uf1 {
-  width: 20rem;
-  height: 20rem;
-  background-color: red;
-  margin: 2rem;
+  width: 80rem;
+  height: 40rem;
+  background-color: rgb(139, 126, 103);
+  margin: 2rem auto;
+  border-radius: 2rem;
+}
+
+.ejercicio {
+  width: 20px;
 }
