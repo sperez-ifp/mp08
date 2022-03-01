@@ -69,16 +69,13 @@ nav ul li ul a li:hover:before{
   display:block;
   width: 25px;
   height: 10px;
+  margin-top: 0.2rem;
   left: -20px;
-  background: url(cursor.png);
+  background: url(img/cursor.png);
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
 }
-
-
-
-a:hover {cursor: pointer;}
 
 nav ul:hover li ul li{
 float: none;
@@ -94,8 +91,44 @@ nav {
   background-color: rgb(139, 126, 103);
   margin: 2rem auto;
   border-radius: 2rem;
+  text-align: left;
 }
 
 .ejercicio {
-  width: 20px;
+  float: left;
+  margin-top: 6rem;
+  margin-left: 5rem;
+  background-image: url(img/2b.jpg);
+  background-size: 100%;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(203, 198, 175);
+  font-size: 1.5rem;
+  margin-top: 10.5rem;
+}
+
+div a div h1:hover:before {
+  content:"";
+  width: 35px;
+  height: 20px;
+  margin-top: 0.4rem;
+  margin-left: -2.5rem;
+  background: url(img/cursor.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.uf1 h2 {
+  margin-top: 1.7rem;
+  margin-left: 5rem;
+  position: absolute;
+  color: rgb(203, 198, 175);
+  font-size: 2.5rem;
 }
