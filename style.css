@@ -126,9 +126,18 @@ div a div h1:hover:before {
 }
 
 .uf1 h2 {
+  font-family: "Noto Sans", sans-serif;
   margin-top: 1.7rem;
   margin-left: 5rem;
   position: absolute;
   color: rgb(203, 198, 175);
   font-size: 2.5rem;
+}
+
+h3 {
+  color: rgb(139, 126, 103);
+  height: 6rem;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0 auto;
 }
