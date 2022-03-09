@@ -109,6 +109,24 @@ nav {
   box-shadow: 0.2rem 0.4rem 0.4rem rgb(26, 26, 26);
 }
 
+a:nth-child(3) .ejercicio{
+  background-image: url(img/robo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:nth-child(4) .ejercicio{
+  background-image: url(img/9s.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:nth-child(5) .ejercicio{
+  background-image: url(img/katana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .ejercicio:hover {
   animation: topmov 3s infinite;
 }
