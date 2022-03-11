@@ -17,12 +17,6 @@ body {
   margin: 0;
 }
 
-@media screem and (min-width: 960) {
-  body {
-
-  }
-}
-
 li a {
   text-decoration: none;
   color: black;
@@ -84,6 +78,7 @@ float: none;
 
 nav {
   margin: 0 auto;
+  z-index: 2;
 }
 
 .uf1 {
@@ -94,6 +89,7 @@ nav {
   border-radius: 2rem;
   text-align: left;
   box-shadow: 0.5rem 0.4rem 0.7rem rgb(26, 26, 26);
+  overflow: hidden;
 }
 
 .ejercicio {
@@ -107,6 +103,7 @@ nav {
   border-radius: 1rem;
   text-align: center;
   box-shadow: 0.2rem 0.4rem 0.4rem rgb(26, 26, 26);
+  position: relative;
 }
 
 a:nth-child(3) .ejercicio{
@@ -163,13 +160,13 @@ a:nth-child(10) .ejercicio{
 
 @keyframes topmov {
   0% {
-    margin-top: 6rem;
+    bottom: 0rem;
   }
   50% {
-    margin-top: 5.7rem;
+    bottom: 0.5rem;
   }
   100% {
-    margin-top: 6rem;
+    bottom: 0rem;
   }
 }
 
@@ -268,4 +265,16 @@ input[type=checkbox] {
 
 #alternador input[type=checkbox]:checked+label {
   opacity: 1;
+}
+
+@media screen and (max-width:649px) {
+  .uf1 {
+    width: 30rem;
+    height: 40rem;
+    background-color: rgb(139, 126, 103);
+    margin: 2rem auto;
+    border-radius: 2rem;
+    text-align: left;
+    box-shadow: 0.5rem 0.4rem 0.7rem rgb(26, 26, 26);
+  }
 }
