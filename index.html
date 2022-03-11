@@ -6,13 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
   <title>Portafolio</title>
 </head>
 <body>
 
-  <audio autoplay="autoplay" loop="loop" preload="auto">
-    <source src="sonido/musica.mp3" type="audio/mp3">
-  </audio>
+  <div id="alternador">
+    <input type="checkbox" id="alterna">
+    <label for="alterna"></label>
+    <ul class="desplega">
+      <audio controls loop autoplay>
+        <source src="audio/musica.mp3" type="audio/mp3">
+      </audio>
+    </ul>
+  </div>
 
 <h3>Portafolio</h3>
 <h4>Sergi Pérez</h4>

@@ -173,10 +173,6 @@ a:nth-child(10) .ejercicio{
   }
 }
 
-
-
-
-
 h1 {
   font-family: "Noto Sans", sans-serif;
   color: rgb(203, 198, 175);
@@ -213,7 +209,7 @@ h3 {
   font-size: 4rem;
   text-align: center;
   margin: 0 auto;
-  text-shadow: 0.1rem 0.1rem 0.1rem rgb(26, 26, 26);
+  text-shadow: 0.1rem 0.1rem 0rem rgb(26, 26, 26);
   width: 30rem;
   padding-top: 2rem;
 }
@@ -223,5 +219,53 @@ h4 {
   height: 1rem;
   font-size: 2rem;
   text-align: center;
-  font-family: Snell Roundhand, cursive;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgb(26, 26, 26);
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+#alternador {
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/nier_face.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  top:0.5rem;
+  left:0.5rem;
+}
+
+#alternador label {
+  width: 2rem;
+  height: 2rem;
+  background-image: url(img/light_fac.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.5rem;
+  transition: all .5s ease;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.desplega {
+  position: absolute;
+  opacity: 1;
+  background: ;
+  left: -22rem;
+  transition: all .5s ease;
+}
+
+#alternador input[type=checkbox]:checked+label~.desplega {
+  left: -3rem;
+}
+
+#alternador input[type=checkbox]:checked+label {
+  opacity: 1;
 }
