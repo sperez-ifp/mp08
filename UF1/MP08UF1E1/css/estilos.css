@@ -54,7 +54,7 @@ p:last-child {
   float: none;
   z-index: 1;
 }
-.documentalesv .cont{
+.docvistos .cont{
   filter: grayscale(100%);
 }
 .pvistas {
@@ -118,5 +118,5 @@ ul {
 .web {
   text-align: right;
   position: relative;
-  left: 1500px;
+  left: 1150px;
 }
